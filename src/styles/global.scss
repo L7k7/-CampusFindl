@@ -1,0 +1,170 @@
+page {
+  background-color: $bg-color;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 36rpx;
+  color: $text-color;
+  box-sizing: border-box;
+}
+
+view, text {
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 36rpx;
+}
+
+.card {
+  background: $white;
+  border-radius: $radius-md;
+  box-shadow: $shadow-sm;
+  padding: 36rpx;
+  margin-bottom: 36rpx;
+}
+
+.btn-primary {
+  background: $primary-color;
+  color: $white;
+  border: none;
+  border-radius: $radius-md;
+  padding: 36rpx 64rpx;
+  font-size: 38rpx;
+  text-align: center;
+  font-weight: 600;
+  &:active {
+    background: $primary-dark;
+  }
+}
+
+.btn-secondary {
+  background: $bg-color;
+  color: $text-color;
+  border: 3rpx solid $border-color;
+  border-radius: $radius-md;
+  padding: 36rpx 64rpx;
+  font-size: 38rpx;
+  text-align: center;
+  &:active {
+    background: $border-color;
+  }
+}
+
+.text-primary {
+  color: $primary-color;
+}
+
+.text-light {
+  color: $text-light;
+}
+
+.text-gray {
+  color: $text-gray;
+}
+
+.text-red {
+  color: $red;
+}
+
+.text-orange {
+  color: $orange;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.gap-sm {
+  gap: 20rpx;
+}
+
+.gap-md {
+  gap: 32rpx;
+}
+
+.gap-lg {
+  gap: 40rpx;
+}
+
+.mt-sm {
+  margin-top: 20rpx;
+}
+
+.mt-md {
+  margin-top: 32rpx;
+}
+
+.mt-lg {
+  margin-top: 40rpx;
+}
+
+.mb-sm {
+  margin-bottom: 20rpx;
+}
+
+.mb-md {
+  margin-bottom: 32rpx;
+}
+
+.mb-lg {
+  margin-bottom: 40rpx;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.img-round {
+  border-radius: $radius-sm;
+}
+
+.tag {
+  display: inline-block;
+  padding: 14rpx 28rpx;
+  border-radius: 28rpx;
+  font-size: 32rpx;
+  &.tag-primary {
+    background: $primary-light;
+    color: $primary-color;
+  }
+  &.tag-orange {
+    background: rgba($orange, 0.1);
+    color: $orange;
+  }
+  &.tag-red {
+    background: rgba($red, 0.1);
+    color: $red;
+  }
+}

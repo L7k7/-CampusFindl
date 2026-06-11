@@ -1,0 +1,26 @@
+{
+  "name": "校园失物招领",
+  "appid": "__UNI__CAMPUSFIND",
+  "description": "校园失物招领平台，帮助师生快速找回遗失物品",
+  "versionName": "1.0.0",
+  "versionCode": "100",
+  "transformPx": false,
+  "h5": {
+    "title": "校园失物招领平台",
+    "router": {
+      "mode": "hash",
+      "base": "./"
+    },
+    "devServer": {
+      "port": 5173,
+      "open": false
+    }
+  },
+  "mp-weixin": {
+    "appid": "",
+    "setting": {
+      "urlCheck": false
+    },
+    "usingComponents": true
+  }
+}
